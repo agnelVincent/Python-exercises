@@ -1,3 +1,5 @@
+#remove consecutive duplicate values
+
 nums = [1, 1, 2, 2, 3, 2, 2, 4]
 x = []
 
