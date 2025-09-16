@@ -37,10 +37,12 @@ class Bank:
             return amount
         
 
-agnel = Bank('abc1' , 'Agnel')
-print(agnel.balance)
+agnel = Bank("abc1", "Agnel")
+print(agnel.balance)    
 agnel.deposit(400)
-print(agnel.balance)
+print(agnel.balance)    
+agnel.withdraw(200)
+print(agnel.balance)    
 
 
 
